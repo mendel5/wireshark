@@ -43,7 +43,7 @@ Source: [Matomo Forum - Maxmind is changing access to free GeoLite2 databases](h
 
 
 ## Log TLS/ SLL keys on Windows systems
-* Go to `System variables` and add a new variable
+* Go to `Environment Variables` and add a new system variable
 * Name: `SSLKEYLOGFILE`
 * Location, e.g.: `C:\logs\ssl-log.txt`
 
