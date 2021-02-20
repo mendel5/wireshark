@@ -1,4 +1,5 @@
 # wireshark-how-to
+Useful settings and options for Wireshark
 
 ## Useful columns
 * IP Country > Custom > `ip.geoip.country`
