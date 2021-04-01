@@ -32,7 +32,7 @@ Fields like `Address` or `Packets` might have values in them, but other fields s
 
 This data can be sourced from MaxMind's GeoLite2 databases. These databases used to be available for free and could be easily downloaded. It is still possible to download them free of charge, however one has to be signed in with a user account on MaxMind's website. The database is available as `.mmdb` and `.csv`. Wireshark can only import the `.mmdb` files.
 
-The last easily downloadable versions have been archived on web.archive.org and are available here (data from 2020-12-24):
+The last easily downloadable versions have been archived on web.archive.org and are available here (data from 2019-12-24):
 * [GeoLite2-City-mmdb.tar.gz](https://web.archive.org/web/20191227182209/https://geolite.maxmind.com/download/geoip/database/GeoLite2-City.tar.gz)
 * [GeoLite2-Country-mmdb.tar.gz](https://web.archive.org/web/20191227182412/https://geolite.maxmind.com/download/geoip/database/GeoLite2-Country.tar.gz)
 * [GeoLite2-ASN-mmdb.tar.gz](https://web.archive.org/web/20191227182527/https://geolite.maxmind.com/download/geoip/database/GeoLite2-ASN.tar.gz)
