@@ -13,6 +13,9 @@ Useful settings and options for Wireshark
 * Only show HTTP traffic where a host is included:
 `http.host`
 
+* Only show HTTP traffic that is a request:
+`http.request`
+
 * Only show HTTP traffic that is a response:
 `http.response`
 
