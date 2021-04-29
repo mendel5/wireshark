@@ -27,7 +27,7 @@ Useful settings and options for Wireshark
 
 * How to show all HTTP responses but exclude OCSP traffic?
   * I wanted to try something like `(http.response_for.uri) && (ip.proto != "ocsp")` but that didn't work.
-  * The solution is `(http.response_for.uri) && (!ocsp)`
+  * The solution is `(!ocsp) && (http.response_for.uri)`
 
 
 ## How to get more information in Statistics > Endpoints?
