@@ -26,7 +26,7 @@ Useful settings and options for Wireshark
 `tls.handshake.extensions_server_name`
 
 * How to show all HTTP responses but exclude OCSP traffic?
-  * I wanted to try something like `(http.response_for.uri) && (ip.proto != "ocsp")` but that didn't work.
+  * I wanted to try something like `(ip.proto != 'ocsp') && (http.response_for.uri)` but that didn't work.
   * The solution is `(!ocsp) && (http.response_for.uri)`
 
 
