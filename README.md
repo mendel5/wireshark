@@ -55,3 +55,8 @@ More information here: https://www.comparitech.com/net-admin/decrypt-ssl-with-wi
 
 ## Preferences - Name Resolution
 - Check most check boxes in the upper section
+
+## Appearance - Columns
+- (Displayed), Title, Type, Fields, Field Occurence
+- No., Number
+- ...
