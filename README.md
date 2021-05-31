@@ -54,4 +54,4 @@ Source: [Matomo Forum - Maxmind is changing access to free GeoLite2 databases](h
 More information here: https://www.comparitech.com/net-admin/decrypt-ssl-with-wireshark/
 
 ## Preferences - Name Resolution
-- Check most check boxes
+- Check most check boxes in the upper section
