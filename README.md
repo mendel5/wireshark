@@ -8,6 +8,25 @@ Useful settings and options for Wireshark
 - TLS SNI > Custom > `tls.handshake.extensions_server_name`
 - Response for URI > Custom > `http.response_for.uri`
 
+## All columns
+Format
+- Title > Type > Fields > Field Occurrence
+
+Columns:
+- No. > Number
+- Time > Time (format as specified)
+- Protocol > Protocol
+- Length > Packet length (bytes)
+- HTTP Content Length > Custom > 
+- IP Country > Custom > 
+- IP Organization > Custom > 
+- Source > Source address
+- Destination > Destination address
+- Host > Custom
+- Info > Information
+- TLS SNI > Custom >
+- Response for URI > Custom > 
+
 ## Filters
 
 - Only show HTTP traffic where a host is included:
