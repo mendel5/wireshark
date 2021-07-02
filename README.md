@@ -1,13 +1,6 @@
 # wireshark-how-to
 Useful settings and options for Wireshark
 
-## Useful columns
-- IP Country > Custom > `ip.geoip.country`
-- IP Organization > Custom > `ip.geoip.org`
-- Host > Custom > `http.host`
-- TLS SNI > Custom > `tls.handshake.extensions_server_name`
-- Response for URI > Custom > `http.response_for.uri`
-
 ## All columns
 Format
 - Title > Type > Fields > Field Occurrence
@@ -17,15 +10,15 @@ Columns:
 - Time > Time (format as specified)
 - Protocol > Protocol
 - Length > Packet length (bytes)
-- HTTP Content Length > Custom > 
-- IP Country > Custom > 
-- IP Organization > Custom > 
+- HTTP Content Length > Custom > `http.content_length`
+- IP Country > Custom > `ip.geoip.country`
+- IP Organization > Custom > `ip.geoip.org`
 - Source > Source address
 - Destination > Destination address
-- Host > Custom
+- Host > Custom > `http.host`
 - Info > Information
-- TLS SNI > Custom >
-- Response for URI > Custom > 
+- TLS SNI > Custom > `tls.handshake.extensions_server_name`
+- Response for URI > Custom > `http.response_for.uri`
 
 ## Filters
 
