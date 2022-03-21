@@ -72,3 +72,7 @@ More information here: https://www.comparitech.com/net-admin/decrypt-ssl-with-wi
 - (Displayed), Title, Type, Fields, Field Occurence
 - No., Number
 - ...
+
+# Links
+- https://news.ycombinator.com/item?id=30743141 Decrypting your own HTTPS traffic with Wireshark (Windows/Linux/Mac)
+- https://www.trickster.dev/post/decrypting-your-own-https-traffic-with-wireshark/
